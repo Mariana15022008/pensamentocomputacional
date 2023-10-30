@@ -15,7 +15,8 @@
        <div class ="cabelinho"> 
         <h1>
               <a href= " index.html" titlle="pagina inicial">  
-             <img scr = "logo.png" alt= "logo da barbearia alura na cor preta"> width="177" height="250" id=" logo">
+             <img scr = "logo.png" alt= "logo da barbearia alura na cor preta">
+             width= "177" height= "250" id=" logo">
               </a>
         </h1>
         <nav>
@@ -30,13 +31,28 @@
              <a href="contato.html">contato</a>
             </li>
             </ul>
-        </nav>
-        </div>
+     </nav>
+     </div>
      </header>
      </main>
- <from>
-       <p> os campos com* são obrigatórios!</p>
- </from>
+         <from>
+             <p> os campos com* são obrigatórios!</p> 
+             <label for="nomecompleto"> nome completo*</label>
+             <input class="input-padrao" type="text" id="nomecompleto" required 
+              placeholder="nome e sobrenome">
+    
+             <label for=" email" > Email*</label>
+             <input class="input-padrao" type=" email" required 
+              placeholder="seuemail@dominio.com">
 
+             <label for= "telefone">telefone</label>
+             <input class="input-padrao" type="tel" id="Email" required 
+             placeholder="(xx)xxxxx-xxxx">
+
+             <Label for= "mesagem">mensagem</Label>
+             <textarea clos="70" rows="5" id="mensagem" 
+              placeholder="Ex: gostaria de um corte de cabelo e barbearia 
+              para o proximo sábado"></textarea>
+         </from>
 </body>
 </html>
