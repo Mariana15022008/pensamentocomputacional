@@ -49,10 +49,45 @@
              <input class="input-padrao" type="tel" id="Email" required 
              placeholder="(xx)xxxxx-xxxx">
 
-             <Label for= "mesagem">mensagem</Label>
+             <label for= "mesagem">mensagem</Label>
              <textarea clos="70" rows="5" id="mensagem" 
               placeholder="Ex: gostaria de um corte de cabelo e barbearia 
               para o proximo sábado"></textarea>
+              <fieldset>
+
+                <legend> Em qual horário prefere seu atendimento?</legend>
+            <select>
+                  <option>manhã</option>
+                  <option>tarede</option>
+                  <option>noite</option>
+           </select>
+           </fieldset>
+
+           </fieldset>
+           <legend> Como prefere o nosso contato?</legend>
+             <label for="radio-email">
+                 <input type="radio" name="contato" value="email" id="radio-email">
+                telefone
+             </label> 
+
+             <label for="radio-telefone">
+                 <input type="radio" name="contato" value="telefone" id=" radio-telefone">
+                telefone
+             </label>
+
+             <label for="radio-watsapp">
+                 <input type="radio" name="contato" value="watsapp" id="radio-watsapp">
+                  watsapp
+             </label>
+             </fieldset>
+             <label class="checkbox"> Gostaria de reeber nossas novidades por email?
+             <input type="checkbox" checked>
+             </label>
+
+             <input class="enviar" type="submit" value="Enviar"> 
          </from>
+
+        </main>    
+
 </body>
-</html>
+ </html>
