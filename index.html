@@ -1,115 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="staly.css">
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <header>
-        <div class="cabecalho">
-            <h1>
-                <a href="index.html" title="Página inicial" >
-                    <img src="logo.png" alt=" logo da Barbearia Alura na cor preta"
-                    width="177" height="250" id="logo">
-                </a>
-            </h1>   
-            <nav>
-                <ul>
-                    <li>
-                       <a href="index.html">home</a>
-                    </li>
-                    <li>
-                        <a href="produtos.html">produtos</a>
-                    </li>
-                    <li>
-                        <a href="contato.html"> contato</a>
-                    </li>
-                </ul>
-            </nav>
+    <header class="cabecalho">
+       <div class="container">
+        <input type="checkbox" id="menu" class="container_botao">
+        <label for="menu">
+        <span class="cabecalho__menu-hamburguer"></span>
+    </label>
+    <ul class="lista_menu">
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Programação</a>
+        </li>
+    </ul>
         </div>
-
-    </header>
-
-  <img id="banner"  src="banner.jpg" alt="salão barbearia alura" width="800" height="300">
- 
-  <main class="home">
-      <section class="principal">
-
-    <h1 class="titulo-principal">Sobre a Barbearia Alura</h1>
-
- <img id="utensilios" src="utensilios.jpg" alt="utensilios de um barbeiro" width="674" height="674">
-
-    <p>Localidade no coração da cidade a <strong>Barbearia Alura</strong> traz para 
-    so mercado o que há de melhor para seu cabelo e barba.
-    Fundada em 2023, a <b>Barbearia Alura</b> já é destaque na cidade 
-    e conquista novos clientes e cada dia.</p>
-    
-    <p>Nossa missão é: <u>"Proporcionar auto-estima e qualidade de
-     vida aos clientes"</u></p>
-    
-     <p> Oferecemos profissionais experientes e antenados ás mudanças
-    no mundo da moda. O atendimento possui padrão de excelência e 
-    agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-    
-    <section class="localizacao">
-
-        <h3 class="titulo-principal"> nosso estabelecimento</h3>
-      <p> estamos localizado no coração da cidade</p>
-
-    <h3> Localizada no coração da cidade</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344.2827164406694!2d-54.062330445590874!3d-24.835545479502954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f38bac2c2329a7%3A0xe3f45e494ac4a4f1!2sBarbearia%20BaliHouse!5e0!3m2!1spt-BR!2sbr!4v1695068377119!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
- 
-   
-</section>
-
-    <section class="localizacao">
-        <h4 class="titulo-principal">beneficios</h2>
-      
-          <h2> Benefícios</h2>
-          <div class="contudo-beneficios"></div>
-          <ul class="lista de beneficios">
-              <li class="itens"> aos clientes</li>
-              <li class="itens"> Espaço diferenciado</li>
-              <li class="itens">Localização</li>
-              <li class="itens">Profissionais qualificados</li>
-              <li class="itens">Pontualidade</li>
-              <li class="itens">Limpeza</li>
-              <li class="itens">Comida(pizza, salgados, refri, água, etc...)</li>
-              <li class="itens">Área de jogos</li>
-          </ul>
-    
-    <img id="imagen-beneficios" src="beneficios.jpg" alt="homen tendo a barba aparada" width="1280" height="853">
-    <div class="video">
-      <iframe title="video americano de um corte de cabelo."
-      src="https:www.youtube.com/embed/wcVVXUVOYUY" width="100%" height="315" farmeboder="0"
-      allow=" accelerometer; autoplay; encrypted-media; yroscope; picutre-in-picture" allowfullscreen>
-    </iframe>
+        <div class="container">
+        <a href="#"><img src="" alt="Favoritos" class="container_imagem"></a>
+        <a href="#"><img src="" alt="Compras" class="container_imagem"></a>
+        <a href="#"><img src="" alt="Perfil" class="container_imagem"></a>
     </div>
-    </section>
-    </main>
-
-    <footer>
-
- <div class="logo-footer">
-  <img scr ="logo-branco.png" alt ="logo barbearia alura na cor branca" widt="45" heing="45">
-</div>
-
-<div class="redes">  
-      <a href="htts://github.com/mariana150222008" title="mariana150222008"
-  target="_blank">
-  <img scr="github-logo.png" alt="logo do github" windt="45" height="45"> </a>
-      <a href="htts://www.intagram.com/045_mariana" title="045-mariana"
-  target="_blank">
-  <img scr="intagram-logo.png" alt="logo do intagram" width="45 " height="45">
-     </a>
- </div>
-           <div class="copyright"> desenvolvido por mariana silva </div>
-           <div clas="copyright">&copy;copyright barbearia alura</div>
- </footer>
-
+</header>
+    <h1>Alurabook</h1>
 </body>
 </html>
